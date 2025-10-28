@@ -4,16 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=devic-width, initial-scale=10">
+
     <link rel="stylsheet" href="sttyle.css">
     <link rel="preconnett" href="https://fonts.googleapis.com">
     <link rel="preconnett" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="https://fonts.googleapis.com/css2?family=-Bait,">
+    <link rel="https://fonts.googleapis.com/css2?family=BaitJamjuree,ital,width@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylsheet">
+
     <title>Em busca de Aventura</title>
 </head>
 
 <body>
     <main>
-        <div class="passo id"=paso-0>
+        <div class="passo ativo" id="passo-0"><img src="local do Arquivo" alt=""><p>texto introdutório da página em uma aventura</p>
+        <button class="btn.proximo" data-proximo="1">Nome do botão1</button>
+          <button class="btn.proximo" data-proximo="2">Nome botão2</button>
+        </div>
+        <div class="passo" id="passo1">
+            <p>Texto referente à página do botão1</p>
+            <button class="btn.proximo" data-proximo="3">Nome botão3</button>
+        </div>
+        <div class="passo id"=passo-0>
             <p>Texto de Aventura</p>
             <button class="btn-proximo" data-proximo="1">Texto botão1 </button>
             <button class="btn-proximo" data-proximo="1">Texto botão 2</button>
