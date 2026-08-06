@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang "PT-BR">
+<meta charset="UTF-8"
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!-- ================ ATIVIDADE — FUTURO DIGITAL ===============================
+
+
+ Crie uma página com o tema: FUTURO DIGITAL Substitua todas as escritas presentes
+ no modelo por novos textos relacionados ao tema proposto. Ao fazer as alterações,
+ mantenha as tags HTML (<h1>, <h2>, <h3>, <p>, <a> etc.) no código.
+Altere somente os textos que estão dentro delas. ============================= -->
+
+
+
+
+<body>
+
+
+    <header>
+
+
+        <h2>Lorem Ipsum</h2>
+
+
+        <nav>
+            <a href="#inicio">Lorem</a>  
+            <a href="#sobre">Ipsum</a>
+        </nav>
+
+
+    </header>
+
+
+
+
+    <section id="inicio">
+
+
+        <div class="hero-text">
+
+
+            <h1>
+                Lorem ipsum
+                <span>dolor.</span>
+            </h1>
+
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+
+
+            <a href="#sobre">
+                Lorem Ipsum
+            </a>
+
+
+        </div>
+
+
+
+
+        <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+            alt="Lorem ipsum"
+        >
+
+
+    </section>
+
+
+
+
+    <section id="sobre">
+
+
+        <h2>
+            Lorem ipsum dolor
+        </h2>
+
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris.
+        </p>
+
+
+
+
+        <h3>Lorem</h3>
+
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+        </p>
+
+
+
+
+        <h3>Ipsum</h3>
+
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+        </p>
+
+
+
+
+        <h3>Dolor</h3>
+
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+        </p>
+
+
+    </section>
+
+
+</body>
+
+</html>
+
+
+
+
+CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7ff;        
+    color: #222;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 05px 8%;                    /*  Altere o padding de 05px para 25px */
+
+
+    background-color: rgb(3, 16, 51);           /* Altere a cor do background-color */
+}
+
+
+
+
+header h2 {
+    color: #dde1ee;
+    font-size: 10px;         /* Altere o font- size de 10px para 24px */
+}
+
+
+
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+    color: #4e577e;
+    font-size: 16px;
+}
+
+
+
+
+nav a:hover {
+    color: #3155d9;   /* Altere a cor do color */    
+}
+
+
+
+
+/* HERO */
+
+
+#inicio {
+    min-height: 600px;                
+
+
+    padding: 70px 8%;                 /* Altere o padding de 70 px para 100px */
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    gap: 60px;
+
+
+    background-color: #f5f7ff;           /* Altere a cor do background-color */
+}
+
+
+
+
+.hero-text {
+    width: 50%;
+}
+
+
+
+
+#inicio h1 {
+    font-size: 30px;             /* Altere o tamanho do font-size de 30px para 60px */
+    line-height: 1.1;
+
+
+    max-width: 600px;
+
+
+    margin-bottom: 20px;
+}
+
+
+
+
+#inicio span {
+    color: #3155d9;
+}
+
+
+
+
+#inicio p {
+    font-size: 12px;              /* Altere o tamanho do font-size de 12px para 18px */
+
+
+    line-height: 1.7;
+
+
+    max-width: 520px;
+
+
+    margin-bottom: 30px;
+}
+
+
+
+
+#inicio a {
+    display: inline-block;
+
+
+    background-color: #3155d9;    /* Altere a cor do background-color */
+
+
+    color: white;
+
+
+    padding: 15px 30px;             /* Altere o padding de 30px para 80px */
+
+
+    text-decoration: none;
+
+
+    border-radius: 8px;
+
+
+    transition: 0.3s;
+}
+
+
+
+
+#inicio a:hover {
+    background-color: #1d328c;    /*  Altere a cor do background-color */
+
+
+    transform: translateY(-2px);
+}
+
+
+
+
+#inicio img {
+    width: 18%;          /* Altere o  width de 18% para 42% */      
+
+
+    height: 420px;
+
+
+    object-fit: cover;
+
+
+    display: block;
+
+
+    border-radius: 24px;
+
+
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/* SEGUNDA SEÇÃO */
+
+
+#sobre {
+    padding: 80px 8%;
+
+
+    background-color: white;       /* Altere a cor do background-color */
+
+
+    text-align: left;         /* Altere o text-align de left para center*/    
+}
+
+
+
+
+#sobre h2 {
+    font-size: 20px;        /* Altere o tamanho do font-size de 20px para 45px */
+
+
+    margin-bottom: 20px;
+}
+
+
+
+
+#sobre > p {
+    max-width: 700px;
+
+
+    margin: 0 auto;
+
+
+    font-size: 17px;
+
+
+    line-height: 1.6;
+}
+
+
+
+
+#sobre h3 {
+    color: #3155d9;
+
+
+    margin-top: 15px;      /* Altere o tamanho do margin-top de 15px para 50px */
+
+
+    margin-bottom: 10px;
+}
+
+
+
+
+#sobre h3 + p {
+    line-height: 1.6;
+}
+
+
+
+
+/* CELULAR */
+
+
+@media (max-width: 800px) {
+
+
+    #inicio {
+        flex-direction: column;
+
+
+        text-align: center;
+
+
+        padding: 60px 8%;
+    }
+
+
+
+
+    .hero-text {
+        width: 100%;
+    }
+
+
+
+
+    #inicio h1 {
+        font-size: 42px;
+    }
+
+
+
+
+    #inicio p {
+        margin-left: auto;
+
+
+        margin-right: auto;
+    }
+
+
+
+
+    #inicio img {
+        width: 100%;
+
+
+        height: 300px;
+    }
+
+
+}
+
+
+
