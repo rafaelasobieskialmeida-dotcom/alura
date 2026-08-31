@@ -1,180 +1,400 @@
-html
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futuro Digital</title>
+
+    <title>Futuro Digital — Tecnologia e Inovação</title>
+
+    <!-- Fonte Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
-<!-- ================ ATIVIDADE — FUTURO DIGITAL ===============================
-
-Crie uma página com o tema: FUTURO DIGITAL. Substitua todas as escritas presentes
-no modelo por novos textos relacionados ao tema proposto. Ao fazer as alterações,
-mantenha as tags HTML (<h1>, <h2>, <h3>, <p>, <a> etc.) no código.
-Altere somente os textos que estão dentro delas.
-
-============================================================================= -->
 
 <body>
 
+
+    <!-- ================= HEADER ================= -->
+
     <header>
 
-        <h2>Futuro Digital</h2>
+        <div class="logo">
+            Futuro Digital
+        </div>
+
 
         <nav>
+
             <a href="#inicio">Início</a>
+
+            <a href="#recursos">Tecnologias</a>
+
+            <a href="#experiencia">Experiência</a>
+
             <a href="#sobre">Sobre</a>
+
         </nav>
+
+
+        <a href="#contato" class="header-button">
+            Descubra
+        </a>
 
     </header>
 
 
-    <section id="inicio">
 
-        <div class="hero-text">
+    <!-- ================= HERO ================= -->
+
+    <section id="inicio" class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                NOVA ERA DIGITAL
+            </p>
+
 
             <h1>
-                O futuro
-                <span>é digital.</span>
+
+                O futuro.
+                <span>Mais inteligente.</span>
+                Mais conectado.
+
             </h1>
 
-            <p>
-                A tecnologia está transformando a forma como vivemos,
-                estudamos, trabalhamos e nos relacionamos. Todos os dias,
-                novas ferramentas e descobertas surgem para facilitar
-                tarefas, ampliar conhecimentos e aproximar pessoas.
+
+            <p class="hero-description">
+
+                A tecnologia está transformando o mundo em uma
+                velocidade nunca vista. Inteligência artificial,
+                conectividade e inovação estão criando novas
+                possibilidades para a sociedade.
+
             </p>
 
-            <p>
-                O futuro digital representa um mundo cada vez mais
-                conectado, inteligente e inovador, no qual a tecnologia
-                participa de diferentes áreas da nossa vida.
+
+            <div class="hero-buttons">
+
+                <a href="#recursos" class="button-primary">
+                    Explorar tecnologias
+                </a>
+
+
+                <a href="#sobre" class="button-secondary">
+                    Saiba mais →
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=90"
+                alt="Tecnologia e computador"
+            >
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SHOWCASE ================= -->
+
+    <section class="showcase">
+
+        <p class="eyebrow">
+            TECNOLOGIA QUE TRANSFORMA
+        </p>
+
+
+        <h2>
+
+            Um mundo cada vez mais
+            <span>digital.</span>
+
+        </h2>
+
+
+        <p class="section-description">
+
+            A transformação digital está presente em diferentes
+            áreas da sociedade. Da educação à saúde, do trabalho
+            ao entretenimento, novas tecnologias tornam atividades
+            mais rápidas, acessíveis e eficientes.
+
+        </p>
+
+
+        <div class="showcase-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1600&q=90"
+                alt="Notebook moderno representando tecnologia"
+            >
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= RECURSOS ================= -->
+
+    <section id="recursos" class="features">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                PRINCIPAIS TECNOLOGIAS
             </p>
 
-            <a href="#sobre">
-                Descubra mais
+
+            <h2>
+                O futuro está acontecendo agora.
+            </h2>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+
+            <article class="feature-card">
+
+                <span class="feature-number">
+                    01
+                </span>
+
+                <h3>
+                    Inteligência Artificial
+                </h3>
+
+                <p>
+
+                    A inteligência artificial permite que sistemas
+                    analisem informações, reconheçam padrões e
+                    auxiliem na realização de tarefas, transformando
+                    áreas como saúde, educação, indústria e comunicação.
+
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <span class="feature-number">
+                    02
+                </span>
+
+                <h3>
+                    Conectividade
+                </h3>
+
+                <p>
+
+                    A internet conecta pessoas, empresas e dispositivos
+                    em diferentes lugares do mundo, facilitando a
+                    comunicação e permitindo o acesso rápido a
+                    informações e serviços.
+
+                </p>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <span class="feature-number">
+                    03
+                </span>
+
+                <h3>
+                    Inovação
+                </h3>
+
+                <p>
+
+                    Novas ideias e tecnologias criam soluções para
+                    problemas atuais e ajudam a construir uma sociedade
+                    mais eficiente, criativa, conectada e preparada
+                    para os desafios do futuro.
+
+                </p>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experiencia" class="experience">
+
+        <div class="experience-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1400&q=90"
+                alt="Tecnologia e inovação digital"
+            >
+
+        </div>
+
+
+        <div class="experience-content">
+
+            <p class="eyebrow">
+                EXPERIÊNCIA DIGITAL
+            </p>
+
+
+            <h2>
+                Tecnologia que
+                facilita a vida.
+            </h2>
+
+
+            <p>
+
+                A tecnologia não deve tornar as coisas mais difíceis.
+                Pelo contrário: quando bem utilizada, ela pode
+                simplificar tarefas, melhorar processos e criar
+                experiências mais práticas para as pessoas.
+
+            </p>
+
+
+            <p>
+
+                Aplicativos, dispositivos inteligentes, sistemas
+                automatizados e plataformas digitais já fazem parte
+                do cotidiano e mostram como o futuro pode ser mais
+                conectado e acessível.
+
+            </p>
+
+
+            <a href="#contato" class="text-link">
+                Descubra mais →
             </a>
 
         </div>
 
-        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
-            alt="Tecnologia e futuro digital">
-
     </section>
 
 
-    <section id="sobre">
+
+    <!-- ================= SOBRE ================= -->
+
+    <section id="sobre" class="about">
+
+        <p class="eyebrow">
+            NOSSA VISÃO
+        </p>
+
 
         <h2>
-            Um mundo cada vez mais conectado
+
+            Mais tecnologia.
+            <br>
+            Mais possibilidades.
+
         </h2>
 
-        <p>
-            O avanço tecnológico cria novas possibilidades para a
-            sociedade. Inteligência artificial, internet, automação,
-            robótica e conectividade estão modificando o cotidiano
-            e criando novas maneiras de solucionar problemas.
-        </p>
 
+        <p class="about-description">
 
-        <h3>Inteligência Artificial</h3>
+            O Futuro Digital representa a evolução constante da
+            tecnologia e seu impacto na sociedade. Acreditamos que
+            inovação, conhecimento e conectividade podem abrir
+            caminhos para novas oportunidades e transformar a
+            maneira como vivemos, estudamos e trabalhamos.
 
-        <p>
-            A inteligência artificial permite desenvolver sistemas
-            capazes de analisar informações, reconhecer padrões e
-            auxiliar na realização de diferentes tarefas. Ela já está
-            presente em áreas como educação, saúde, comunicação,
-            indústria e entretenimento.
-        </p>
-
-
-        <h3>Inovação</h3>
-
-        <p>
-            A inovação é fundamental para o desenvolvimento da sociedade.
-            Novas tecnologias permitem criar produtos, serviços e soluções
-            mais eficientes, ajudando a enfrentar desafios e melhorar
-            diferentes atividades do dia a dia.
-        </p>
-
-
-        <h3>Conectividade</h3>
-
-        <p>
-            A internet possibilita que pessoas de diferentes lugares
-            compartilhem informações e mantenham contato em poucos
-            segundos. Celulares, computadores e outros dispositivos
-            conectados tornam a comunicação cada vez mais rápida.
-        </p>
-
-
-        <h3>Tecnologia na Educação</h3>
-
-        <p>
-            A tecnologia também transforma a maneira de aprender.
-            Plataformas digitais, bibliotecas virtuais, aplicativos
-            educacionais e ferramentas de inteligência artificial
-            permitem acessar conteúdos e conhecimentos de diferentes
-            lugares.
-        </p>
-
-
-        <h3>Tecnologia na Saúde</h3>
-
-        <p>
-            Na área da saúde, os avanços tecnológicos contribuem para
-            diagnósticos, pesquisas e tratamentos. Equipamentos modernos,
-            sistemas digitais e novas ferramentas auxiliam profissionais
-            a oferecer um atendimento cada vez mais eficiente.
-        </p>
-
-
-        <h3>O Futuro do Trabalho</h3>
-
-        <p>
-            A automação e as novas tecnologias estão mudando o mercado
-            de trabalho. Algumas atividades passam a ser realizadas
-            por máquinas e sistemas digitais, enquanto novas profissões
-            surgem relacionadas à tecnologia, à criatividade e à inovação.
-        </p>
-
-
-        <h3>Segurança Digital</h3>
-
-        <p>
-            Com o crescimento do uso da internet, proteger informações
-            pessoais também se tornou essencial. Senhas seguras,
-            privacidade, cuidado com links desconhecidos e atenção ao
-            compartilhamento de dados são atitudes importantes para
-            utilizar a tecnologia com responsabilidade.
-        </p>
-
-
-        <h3>Tecnologia e Sustentabilidade</h3>
-
-        <p>
-            A tecnologia pode contribuir para um futuro mais sustentável
-            por meio de soluções que reduzem o desperdício, melhoram o
-            uso de recursos naturais e desenvolvem fontes de energia
-            mais eficientes. A inovação pode ajudar a construir uma
-            sociedade mais consciente e preparada para os desafios
-            ambientais.
-        </p>
-
-
-        <h3>Um futuro de possibilidades</h3>
-
-        <p>
-            O futuro digital está em constante transformação. À medida
-            que novas descobertas acontecem, surgem oportunidades para
-            melhorar a comunicação, a educação, a saúde, o trabalho e
-            diversos outros setores da sociedade.
         </p>
 
     </section>
+
+
+
+    <!-- ================= CTA ================= -->
+
+    <section id="contato" class="cta">
+
+        <p class="eyebrow">
+            O FUTURO COMEÇA AGORA
+        </p>
+
+
+        <h2>
+
+            Prepare-se para
+            o mundo digital.
+
+        </h2>
+
+
+        <a href="#inicio" class="button-primary">
+            Voltar ao início
+        </a>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            Futuro Digital
+        </div>
+
+
+        <p>
+            © 2026 Futuro Digital. Todos os direitos reservados.
+        </p>
+
+
+        <div class="footer-links">
+
+            <a href="#inicio">
+                Início
+            </a>
+
+            <a href="#sobre">
+                Sobre
+            </a>
+
+            <a href="#contato">
+                Contato
+            </a>
+
+        </div>
+
+    </footer>
+
 
 </body>
 
@@ -185,184 +405,790 @@ Altere somente os textos que estão dentro delas.
 
 
 CSS
-```css
+css
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-    color: #D4AF37;
+html {
+    scroll-behavior: smooth;
 }
 
-/* CABEÇALHO */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #050505;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    position: relative;
+}
+
+
+/* =========================
+   HEADER
+========================= */
 
 header {
+    width: 100%;
+    padding: 22px 7%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 25px 8%;
-    background-color: #000000;
-    border-bottom: 1px solid #D4AF37;
+    justify-content: space-between;
+
+    background: rgba(5, 5, 5, 0.95);
+
+    border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    backdrop-filter: blur(15px);
 }
 
-header h2 {
+.logo {
     color: #D4AF37;
     font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 nav {
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #D4AF37;
-    font-size: 18px;
+    color: #dddddd;
+    font-size: 14px;
+    font-weight: 500;
+
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #FFD700;
-}
-
-/* HERO */
-
-#inicio {
-    min-height: 600px;
-    padding: 100px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 60px;
-    background-color: #000000;
-}
-
-.hero-text {
-    width: 50%;
-}
-
-#inicio h1 {
-    font-size: 60px;
-    line-height: 1.1;
-    max-width: 600px;
-    margin-bottom: 20px;
     color: #D4AF37;
 }
 
-#inicio span {
-    color: #FFD700;
-}
+.header-button {
+    padding: 11px 22px;
 
-#inicio p {
-    font-size: 18px;
-    line-height: 1.7;
-    max-width: 520px;
-    margin-bottom: 30px;
+    border: 1px solid #D4AF37;
+    border-radius: 30px;
+
     color: #D4AF37;
-}
 
-#inicio a {
-    display: inline-block;
-    background-color: #D4AF37;
-    color: #000000;
-    padding: 18px 35px;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+
     transition: 0.3s;
 }
 
-#inicio a:hover {
-    background-color: #FFD700;
-    transform: translateY(-2px);
+.header-button:hover {
+    background: #D4AF37;
+    color: #000000;
+
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
 }
 
-#inicio img {
-    width: 42%;
-    height: 420px;
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 90vh;
+
+    padding: 100px 7%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 80px;
+
+    background:
+        radial-gradient(
+            circle at 15% 50%,
+            rgba(212, 175, 55, 0.08),
+            transparent 35%
+        ),
+        #050505;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.eyebrow {
+    color: #D4AF37;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 22px;
+}
+
+.hero h1 {
+    font-size: clamp(50px, 6vw, 82px);
+
+    line-height: 1.05;
+
+    letter-spacing: -3px;
+
+    margin-bottom: 30px;
+
+    color: #ffffff;
+}
+
+.hero h1 span {
+    color: #D4AF37;
+}
+
+.hero-description {
+    color: #a9a9a9;
+
+    font-size: 17px;
+
+    line-height: 1.9;
+
+    max-width: 570px;
+
+    margin-bottom: 38px;
+}
+
+
+/* =========================
+   BOTÕES
+========================= */
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.button-primary {
+    display: inline-block;
+
+    padding: 15px 28px;
+
+    background: #D4AF37;
+    color: #050505;
+
+    border-radius: 30px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.button-primary:hover {
+    background: #FFD700;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 30px rgba(212, 175, 55, 0.25);
+}
+
+.button-secondary {
+    color: #ffffff;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+.button-secondary:hover {
+    color: #D4AF37;
+}
+
+
+/* =========================
+   HERO IMAGE
+========================= */
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image::before {
+    content: "";
+
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+
+    background: #D4AF37;
+
+    filter: blur(100px);
+
+    opacity: 0.15;
+
+    top: -30px;
+    right: -30px;
+}
+
+.hero-image img {
+    width: 100%;
+
+    height: 550px;
+
     object-fit: cover;
-    display: block;
-    border-radius: 24px;
-    box-shadow: 0 20px 40px rgba(212, 175, 55, 0.25);
+
+    border-radius: 25px;
+
+    border: 1px solid rgba(212, 175, 55, 0.35);
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.7),
+        0 0 50px rgba(212, 175, 55, 0.08);
 }
 
-/* SEGUNDA SEÇÃO */
 
-#sobre {
-    padding: 80px 8%;
-    background-color: #000000;
-    color: #D4AF37;
+/* =========================
+   SHOWCASE
+========================= */
+
+.showcase {
+    padding: 130px 7%;
+
     text-align: center;
-    border-top: 1px solid #D4AF37;
+
+    background: #080808;
 }
 
-#sobre h2 {
-    font-size: 45px;
-    margin-bottom: 20px;
+.showcase h2 {
+    font-size: clamp(40px, 5vw, 65px);
+
+    line-height: 1.1;
+
+    color: #ffffff;
+
+    margin-bottom: 25px;
+}
+
+.showcase h2 span {
     color: #D4AF37;
 }
 
-#sobre > p {
+.section-description {
     max-width: 700px;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #D4AF37;
+
+    margin: 0 auto 55px;
+
+    color: #999999;
+
+    font-size: 16px;
+
+    line-height: 1.8;
 }
 
-#sobre h3 {
+.showcase-image {
+    max-width: 1100px;
+
+    margin: auto;
+
+    position: relative;
+}
+
+.showcase-image img {
+    width: 100%;
+
+    height: 550px;
+
+    object-fit: cover;
+
+    border-radius: 25px;
+
+    border: 1px solid rgba(212, 175, 55, 0.25);
+
+    filter: brightness(0.75);
+
+    transition: 0.5s;
+}
+
+.showcase-image img:hover {
+    filter: brightness(0.95);
+
+    transform: scale(1.01);
+
+    box-shadow:
+        0 20px 60px rgba(212, 175, 55, 0.12);
+}
+
+
+/* =========================
+   RECURSOS
+========================= */
+
+.features {
+    padding: 130px 7%;
+
+    background: #050505;
+}
+
+.section-heading {
+    margin-bottom: 60px;
+}
+
+.section-heading h2 {
+    font-size: clamp(35px, 4vw, 55px);
+
+    color: #ffffff;
+}
+
+.feature-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.feature-card {
+    min-height: 300px;
+
+    padding: 40px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #111111,
+            #080808
+        );
+
+    border: 1px solid rgba(212, 175, 55, 0.15);
+
+    border-radius: 20px;
+
+    transition: 0.4s;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.feature-card::after {
+    content: "";
+
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+
+    background: #D4AF37;
+
+    filter: blur(80px);
+
+    opacity: 0;
+
+    right: -30px;
+    bottom: -30px;
+
+    transition: 0.4s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+
+    border-color: rgba(212, 175, 55, 0.5);
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.feature-card:hover::after {
+    opacity: 0.12;
+}
+
+.feature-number {
+    color: #D4AF37;
+
+    font-size: 13px;
+
+    letter-spacing: 2px;
+}
+
+.feature-card h3 {
+    margin-top: 60px;
+
+    margin-bottom: 15px;
+
+    color: #ffffff;
+
+    font-size: 25px;
+}
+
+.feature-card p {
+    color: #999999;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   EXPERIENCE
+========================= */
+
+.experience {
+    padding: 130px 7%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 90px;
+
+    background: #080808;
+}
+
+.experience-image img {
+    width: 100%;
+
+    height: 520px;
+
+    object-fit: cover;
+
+    border-radius: 25px;
+
+    border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.experience-content {
+    max-width: 550px;
+}
+
+.experience-content h2 {
+    color: #ffffff;
+
+    font-size: clamp(40px, 5vw, 62px);
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+.experience-content > p:not(.eyebrow) {
+    color: #999999;
+
+    font-size: 16px;
+
+    line-height: 1.9;
+
+    margin-bottom: 20px;
+}
+
+.text-link {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    color: #D4AF37;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.text-link:hover {
     color: #FFD700;
-    font-size: 28px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+
+    transform: translateX(5px);
 }
 
-#sobre h3 + p {
-    line-height: 1.6;
-    font-size: 18px;
+
+/* =========================
+   SOBRE
+========================= */
+
+.about {
+    padding: 150px 10%;
+
+    text-align: center;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(212, 175, 55, 0.08),
+            transparent 45%
+        ),
+        #050505;
+}
+
+.about h2 {
+    color: #ffffff;
+
+    font-size: clamp(45px, 6vw, 75px);
+
+    line-height: 1.1;
+
+    margin-bottom: 35px;
+}
+
+.about h2 br + * {
     color: #D4AF37;
 }
 
-/* CELULAR */
+.about-description {
+    max-width: 750px;
 
-@media (max-width: 800px) {
+    margin: auto;
 
-    #inicio {
-        flex-direction: column;
+    color: #999999;
+
+    font-size: 17px;
+
+    line-height: 1.9;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.cta {
+    padding: 120px 7%;
+
+    text-align: center;
+
+    background: #D4AF37;
+
+    color: #000000;
+}
+
+.cta .eyebrow {
+    color: #000000;
+}
+
+.cta h2 {
+    font-size: clamp(40px, 5vw, 65px);
+
+    line-height: 1.1;
+
+    max-width: 800px;
+
+    margin: 0 auto 35px;
+
+    color: #000000;
+}
+
+.cta .button-primary {
+    background: #000000;
+
+    color: #D4AF37;
+}
+
+.cta .button-primary:hover {
+    background: #151515;
+
+    color: #FFD700;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 45px 7%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
+    background: #030303;
+
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.footer-logo {
+    color: #D4AF37;
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+footer p {
+    color: #666666;
+
+    font-size: 12px;
+}
+
+.footer-links {
+    display: flex;
+
+    gap: 25px;
+}
+
+.footer-links a {
+    color: #888888;
+
+    font-size: 13px;
+
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #D4AF37;
+}
+
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 900px) {
+
+    header {
+        padding: 20px 5%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+
+        padding: 80px 5%;
+
         text-align: center;
-        padding: 60px 8%;
+
+        gap: 50px;
     }
 
-    .hero-text {
-        width: 100%;
+    .hero-content {
+        margin: auto;
     }
 
-    #inicio h1 {
-        font-size: 42px;
-    }
-
-    #inicio p {
+    .hero-description {
         margin-left: auto;
         margin-right: auto;
     }
 
-    #inicio img {
-        width: 100%;
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image img {
+        height: 400px;
+    }
+
+    .showcase,
+    .features,
+    .experience {
+        padding: 90px 5%;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experience {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .experience-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .experience-image img {
+        height: 400px;
+    }
+
+    .about {
+        padding: 100px 5%;
+    }
+
+    footer {
+        flex-direction: column;
+
+        text-align: center;
+    }
+}
+
+
+/* =========================
+   CELULARES PEQUENOS
+========================= */
+
+@media (max-width: 500px) {
+
+    .header-button {
+        padding: 9px 15px;
+
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+
+        letter-spacing: -2px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .hero-image img,
+    .experience-image img {
         height: 300px;
     }
 
-    nav {
-        gap: 15px;
+    .showcase-image img {
+        height: 300px;
     }
 
-    nav a {
-        font-size: 16px;
+    .feature-card {
+        padding: 30px;
+    }
+
+    .cta {
+        padding: 90px 5%;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+
+        justify-content: center;
     }
 }
-```
+
