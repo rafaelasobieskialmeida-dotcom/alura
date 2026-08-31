@@ -1,134 +1,180 @@
+html
 <!DOCTYPE html>
-<html lang "PT-BR">
-<meta charset="UTF-8" <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lorem Ipsum</title>
-<link rel="stylesheet" href="style.css">
-</head>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <!-- ================ ATIVIDADE — FUTURO DIGITAL ===============================
 
+Crie uma página com o tema: FUTURO DIGITAL. Substitua todas as escritas presentes
+no modelo por novos textos relacionados ao tema proposto. Ao fazer as alterações,
+mantenha as tags HTML (<h1>, <h2>, <h3>, <p>, <a> etc.) no código.
+Altere somente os textos que estão dentro delas.
 
- Crie uma página com o tema: FUTURO DIGITAL Substitua todas as escritas presentes
- no modelo por novos textos relacionados ao tema proposto. Ao fazer as alterações,
- mantenha as tags HTML (<h1>, <h2>, <h3>, <p>, <a> etc.) no código.
-Altere somente os textos que estão dentro delas. ============================= -->
-
-
-
+============================================================================= -->
 
 <body>
 
-
     <header>
 
-
         <h2>Futuro Digital</h2>
-
 
         <nav>
             <a href="#inicio">Início</a>
             <a href="#sobre">Sobre</a>
         </nav>
 
-
     </header>
-
-
 
 
     <section id="inicio">
 
-
         <div class="hero-text">
-
 
             <h1>
                 O futuro
                 <span>é digital.</span>
             </h1>
 
-
             <p>
-                A tecnologia está transformando a forma como
-                vivemos, trabalhamos e nos conectamos.
-                Descubra como a inovação pode construir um
-                futuro mais inteligente e conectado.
+                A tecnologia está transformando a forma como vivemos,
+                estudamos, trabalhamos e nos relacionamos. Todos os dias,
+                novas ferramentas e descobertas surgem para facilitar
+                tarefas, ampliar conhecimentos e aproximar pessoas.
             </p>
 
+            <p>
+                O futuro digital representa um mundo cada vez mais
+                conectado, inteligente e inovador, no qual a tecnologia
+                participa de diferentes áreas da nossa vida.
+            </p>
 
             <a href="#sobre">
                 Descubra mais
             </a>
 
-
         </div>
-
-
-
 
         <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
             alt="Tecnologia e futuro digital">
 
-
     </section>
 
 
-
-
     <section id="sobre">
-
 
         <h2>
             Um mundo cada vez mais conectado
         </h2>
 
-
         <p>
-            O avanço da tecnologia cria novas possibilidades
-            para a sociedade. Inteligência artificial, inovação
-            e conectividade estão mudando nosso cotidiano.
+            O avanço tecnológico cria novas possibilidades para a
+            sociedade. Inteligência artificial, internet, automação,
+            robótica e conectividade estão modificando o cotidiano
+            e criando novas maneiras de solucionar problemas.
         </p>
-
-
 
 
         <h3>Inteligência Artificial</h3>
 
-
         <p>
-            A inteligência artificial permite criar soluções
-            capazes de analisar informações, automatizar tarefas
-            e transformar diferentes áreas da sociedade.
+            A inteligência artificial permite desenvolver sistemas
+            capazes de analisar informações, reconhecer padrões e
+            auxiliar na realização de diferentes tarefas. Ela já está
+            presente em áreas como educação, saúde, comunicação,
+            indústria e entretenimento.
         </p>
-
-
 
 
         <h3>Inovação</h3>
 
-
         <p>
-            Novas tecnologias impulsionam ideias e soluções
-            criativas, tornando processos mais rápidos,
-            eficientes e acessíveis.
+            A inovação é fundamental para o desenvolvimento da sociedade.
+            Novas tecnologias permitem criar produtos, serviços e soluções
+            mais eficientes, ajudando a enfrentar desafios e melhorar
+            diferentes atividades do dia a dia.
         </p>
-
-
 
 
         <h3>Conectividade</h3>
 
-
         <p>
-            A conexão entre pessoas e dispositivos aproxima
-            comunidades e facilita o acesso à informação em
-            um mundo cada vez mais digital.
+            A internet possibilita que pessoas de diferentes lugares
+            compartilhem informações e mantenham contato em poucos
+            segundos. Celulares, computadores e outros dispositivos
+            conectados tornam a comunicação cada vez mais rápida.
         </p>
 
 
-    </section>
+        <h3>Tecnologia na Educação</h3>
 
+        <p>
+            A tecnologia também transforma a maneira de aprender.
+            Plataformas digitais, bibliotecas virtuais, aplicativos
+            educacionais e ferramentas de inteligência artificial
+            permitem acessar conteúdos e conhecimentos de diferentes
+            lugares.
+        </p>
+
+
+        <h3>Tecnologia na Saúde</h3>
+
+        <p>
+            Na área da saúde, os avanços tecnológicos contribuem para
+            diagnósticos, pesquisas e tratamentos. Equipamentos modernos,
+            sistemas digitais e novas ferramentas auxiliam profissionais
+            a oferecer um atendimento cada vez mais eficiente.
+        </p>
+
+
+        <h3>O Futuro do Trabalho</h3>
+
+        <p>
+            A automação e as novas tecnologias estão mudando o mercado
+            de trabalho. Algumas atividades passam a ser realizadas
+            por máquinas e sistemas digitais, enquanto novas profissões
+            surgem relacionadas à tecnologia, à criatividade e à inovação.
+        </p>
+
+
+        <h3>Segurança Digital</h3>
+
+        <p>
+            Com o crescimento do uso da internet, proteger informações
+            pessoais também se tornou essencial. Senhas seguras,
+            privacidade, cuidado com links desconhecidos e atenção ao
+            compartilhamento de dados são atitudes importantes para
+            utilizar a tecnologia com responsabilidade.
+        </p>
+
+
+        <h3>Tecnologia e Sustentabilidade</h3>
+
+        <p>
+            A tecnologia pode contribuir para um futuro mais sustentável
+            por meio de soluções que reduzem o desperdício, melhoram o
+            uso de recursos naturais e desenvolvem fontes de energia
+            mais eficientes. A inovação pode ajudar a construir uma
+            sociedade mais consciente e preparada para os desafios
+            ambientais.
+        </p>
+
+
+        <h3>Um futuro de possibilidades</h3>
+
+        <p>
+            O futuro digital está em constante transformação. À medida
+            que novas descobertas acontecem, surgem oportunidades para
+            melhorar a comunicação, a educação, a saúde, o trabalho e
+            diversos outros setores da sociedade.
+        </p>
+
+    </section>
 
 </body>
 
@@ -137,7 +183,9 @@ Altere somente os textos que estão dentro delas. ============================= 
 
 
 
+
 CSS
+```css
 * {
     margin: 0;
     padding: 0;
@@ -156,9 +204,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 25px 8%;
-
     background-color: #000000;
     border-bottom: 1px solid #D4AF37;
 }
@@ -177,6 +223,7 @@ nav a {
     text-decoration: none;
     color: #D4AF37;
     font-size: 18px;
+    transition: 0.3s;
 }
 
 nav a:hover {
@@ -187,14 +234,11 @@ nav a:hover {
 
 #inicio {
     min-height: 600px;
-
     padding: 100px 8%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 60px;
-
     background-color: #000000;
 }
 
@@ -205,11 +249,8 @@ nav a:hover {
 #inicio h1 {
     font-size: 60px;
     line-height: 1.1;
-
     max-width: 600px;
-
     margin-bottom: 20px;
-
     color: #D4AF37;
 }
 
@@ -219,105 +260,72 @@ nav a:hover {
 
 #inicio p {
     font-size: 18px;
-
     line-height: 1.7;
-
     max-width: 520px;
-
     margin-bottom: 30px;
-
     color: #D4AF37;
 }
 
 #inicio a {
     display: inline-block;
-
     background-color: #D4AF37;
-
     color: #000000;
-
     padding: 18px 35px;
-
     font-size: 18px;
     font-weight: bold;
-
     text-decoration: none;
-
     border-radius: 8px;
-
     transition: 0.3s;
 }
 
 #inicio a:hover {
     background-color: #FFD700;
-
     transform: translateY(-2px);
 }
 
 #inicio img {
     width: 42%;
-
     height: 420px;
-
     object-fit: cover;
-
     display: block;
-
     border-radius: 24px;
-
-    box-shadow:
-        0 20px 40px rgba(212, 175, 55, 0.25);
+    box-shadow: 0 20px 40px rgba(212, 175, 55, 0.25);
 }
 
 /* SEGUNDA SEÇÃO */
 
 #sobre {
     padding: 80px 8%;
-
     background-color: #000000;
-
     color: #D4AF37;
-
     text-align: center;
-
     border-top: 1px solid #D4AF37;
 }
 
 #sobre h2 {
     font-size: 45px;
-
     margin-bottom: 20px;
-
     color: #D4AF37;
 }
 
 #sobre > p {
     max-width: 700px;
-
     margin: 0 auto;
-
     font-size: 18px;
-
     line-height: 1.6;
-
     color: #D4AF37;
 }
 
 #sobre h3 {
     color: #FFD700;
-
     font-size: 28px;
-
     margin-top: 50px;
-
     margin-bottom: 10px;
 }
 
 #sobre h3 + p {
     line-height: 1.6;
-
     font-size: 18px;
-
     color: #D4AF37;
 }
 
@@ -327,9 +335,7 @@ nav a:hover {
 
     #inicio {
         flex-direction: column;
-
         text-align: center;
-
         padding: 60px 8%;
     }
 
@@ -343,13 +349,11 @@ nav a:hover {
 
     #inicio p {
         margin-left: auto;
-
         margin-right: auto;
     }
 
     #inicio img {
         width: 100%;
-
         height: 300px;
     }
 
@@ -361,3 +365,4 @@ nav a:hover {
         font-size: 16px;
     }
 }
+```
